@@ -1,7 +1,6 @@
 from storage import add_knowledge, get_all_knowledge
 
 MIN_RELEVANCE = 0.5
-
 def create_knowledge(content, knowledge):
     return {
         "id": len(knowledge) + 1,
